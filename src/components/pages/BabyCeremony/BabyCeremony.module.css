@@ -1,0 +1,398 @@
+.babyCeremony {
+  width: 100%;
+  background: #f8fafc;
+}
+
+/* Hero */
+
+.hero {
+    background: linear-gradient(135deg, #2563eb, #8b5cf6, #ec4899);
+  padding: 90px 8%;
+  text-align: center;
+}
+
+.heroContent {
+  max-width: 850px;
+  margin: auto;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 35px;
+}
+
+.heroBtn {
+  background: #ff4081;
+  color: #fff;
+  border: none;
+  padding: 15px 40px;
+  font-size: 17px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.heroBtn:hover {
+  background: #e91e63;
+  transform: translateY(-3px);
+}
+
+/* Heading */
+
+.heading {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.heading h2 {
+  font-size: 36px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.heading p {
+  color: #666;
+  font-size: 17px;
+}
+
+/* Products */
+
+.productSection {
+  padding: 80px 8%;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+  gap: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,.08);
+  transition: .4s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.cardContent {
+  padding: 25px;
+}
+
+.cardContent h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.cardContent p {
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.star {
+  color: orange;
+}
+
+.rating span {
+  font-weight: bold;
+}
+
+.rating small {
+  color: gray;
+}
+
+.cardContent h2 {
+  color: #ff4081;
+  margin-bottom: 20px;
+}
+
+.cartBtn {
+  width: 100%;
+  border: none;
+  padding: 14px;
+  background: #ff4081;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  transition: .3s;
+}
+
+.cartBtn:hover {
+  background: #e91e63;
+}
+
+/* Gallery */
+
+.gallery {
+  padding: 80px 8%;
+  background: #fff;
+  text-align: center;
+}
+
+.gallery h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.gallery p {
+  color: #666;
+  margin-bottom: 45px;
+}
+
+.galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+  gap: 25px;
+}
+
+.galleryCard {
+  overflow: hidden;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+.galleryCard img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  transition: .4s;
+}
+
+.galleryCard:hover img {
+  transform: scale(1.08);
+}
+
+/* Features */
+
+.features {
+  padding: 90px 8%;
+  background: #fff7fa;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 30px;
+}
+
+.feature {
+  background: white;
+  padding: 35px 25px;
+  border-radius: 18px;
+  transition: .4s;
+  box-shadow: 0 8px 25px rgba(0,0,0,.06);
+}
+
+.feature:hover {
+  transform: translateY(-10px);
+}
+
+.icon {
+  font-size: 45px;
+  color: #ff4081;
+  margin-bottom: 18px;
+}
+
+.feature h3 {
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.feature p {
+  color: #666;
+  line-height: 1.7;
+}
+
+/* Services */
+
+.services {
+  padding: 80px 8%;
+  text-align: center;
+  background: white;
+}
+
+.services h2 {
+  margin-bottom: 45px;
+  font-size: 36px;
+}
+
+.serviceGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 25px;
+}
+
+.serviceGrid div {
+  background: #fff0f6;
+  padding: 22px;
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.serviceGrid div:hover {
+  background: #ff4081;
+  color: white;
+}
+
+/* CTA */
+
+.cta {
+  background: linear-gradient(135deg,#ff4081,#ff80ab);
+  color: white;
+  padding: 90px 8%;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.cta p {
+  max-width: 750px;
+  margin: auto;
+  line-height: 1.8;
+  margin-bottom: 35px;
+  font-size: 18px;
+}
+
+.cta button {
+  background: white;
+  color: #ff4081;
+  border: none;
+  padding: 15px 40px;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 35px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.cta button:hover {
+  background: #222;
+  color: white;
+}
+
+/* Responsive */
+
+@media (max-width:991px){
+
+.hero h1{
+    font-size:2.4rem;
+}
+
+.heading h2,
+.features h2,
+.services h2,
+.gallery h2,
+.cta h2{
+    font-size:30px;
+}
+
+.card img{
+    height:220px;
+}
+
+.galleryCard img{
+    height:260px;
+}
+
+}
+
+@media (max-width:768px){
+
+.hero{
+    padding:70px 20px;
+}
+
+.productSection,
+.features,
+.gallery,
+.services,
+.cta{
+    padding:70px 20px;
+}
+
+.hero h1{
+    font-size:2rem;
+}
+
+.hero p{
+    font-size:16px;
+}
+
+.cardContent h3{
+    font-size:20px;
+}
+
+.heading h2,
+.features h2,
+.gallery h2,
+.services h2,
+.cta h2{
+    font-size:28px;
+}
+
+}
+
+@media (max-width:480px){
+
+.hero h1{
+    font-size:1.7rem;
+}
+
+.heroBtn,
+.cartBtn,
+.cta button{
+    width:100%;
+}
+
+.card img{
+    height:200px;
+}
+
+.galleryCard img{
+    height:220px;
+}
+
+}

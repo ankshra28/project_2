@@ -1,0 +1,294 @@
+/* ===========================
+   CAREER PAGE
+=========================== */
+
+.career {
+  width: 100%;
+  background: #f8fbff;
+}
+
+/* ===========================
+   HERO SECTION
+=========================== */
+
+.hero {
+  background: linear-gradient(135deg, #2563eb, #8b5cf6, #ec4899);
+  color: white;
+  text-align: center;
+  padding: 90px 8%;
+}
+
+.hero h1 {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+/* ===========================
+   WHY JOIN US
+=========================== */
+
+.why {
+  padding: 80px 8%;
+}
+
+.why h2 {
+  text-align: center;
+  color: #2563eb;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+}
+
+.feature {
+  background: white;
+  padding: 35px 25px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+  transition: .3s;
+}
+
+.feature:hover {
+  transform: translateY(-10px);
+  background: linear-gradient(135deg,#2563eb,#ec4899);
+  color: white;
+}
+
+.feature h3 {
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.feature p {
+  line-height: 1.7;
+}
+
+/* ===========================
+   JOBS
+=========================== */
+
+.jobs {
+  padding: 20px 8% 80px;
+}
+
+.jobs h2 {
+  text-align: center;
+  color: #2563eb;
+  font-size: 40px;
+  margin-bottom: 45px;
+}
+
+.jobCard {
+  background: white;
+  border-radius: 18px;
+  padding: 25px 30px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+  transition: .3s;
+}
+
+.jobCard:hover {
+  transform: translateY(-6px);
+}
+
+.jobCard h3 {
+  color: #ec4899;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.jobCard p {
+  color: #555;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.jobCard svg {
+  color: #2563eb;
+}
+
+.jobCard button {
+  padding: 14px 30px;
+  border: none;
+  border-radius: 40px;
+  background: linear-gradient(135deg,#2563eb,#ec4899);
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.jobCard button:hover {
+  transform: scale(1.05);
+}
+
+/* ===========================
+   APPLICATION FORM
+=========================== */
+
+.formSection {
+  padding: 80px 8%;
+  background: white;
+}
+
+.formSection h2 {
+  text-align: center;
+  color: #2563eb;
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+
+.form {
+  max-width: 750px;
+  margin: auto;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  transition: .3s;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 8px rgba(37,99,235,.2);
+}
+
+.form textarea {
+  resize: vertical;
+}
+
+.form input[type="file"] {
+  padding: 12px;
+  background: #fff;
+}
+
+.form button {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(135deg,#2563eb,#ec4899);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.form button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(236,72,153,.3);
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width: 1100px){
+
+.features{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.jobCard{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:20px;
+}
+
+.jobCard button{
+    width:100%;
+}
+
+}
+
+@media (max-width:768px){
+
+.hero{
+    padding:70px 5%;
+}
+
+.hero h1{
+    font-size:38px;
+}
+
+.hero p{
+    font-size:16px;
+}
+
+.why,
+.jobs,
+.formSection{
+    padding:60px 5%;
+}
+
+.why h2,
+.jobs h2,
+.formSection h2{
+    font-size:30px;
+}
+
+.features{
+    grid-template-columns:1fr;
+}
+
+}
+
+@media (max-width:480px){
+
+.hero h1{
+    font-size:30px;
+}
+
+.hero p{
+    font-size:15px;
+}
+
+.jobCard{
+    padding:20px;
+}
+
+.jobCard h3{
+    font-size:20px;
+}
+
+.formSection h2{
+    font-size:26px;
+}
+
+.form input,
+.form textarea{
+    font-size:15px;
+}
+
+.form button{
+    font-size:16px;
+}
+
+}

@@ -1,0 +1,200 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Hero */
+
+.hero{
+height:90vh;
+background:url("/images/hero.jpg") center/cover no-repeat;
+position:relative;
+}
+
+.overlay{
+height:100%;
+background:linear-gradient(rgba(37,99,235,.6),rgba(236,72,153,.6));
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.heroContent{
+color:white;
+max-width:700px;
+}
+
+.heroContent h1{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.heroContent p{
+font-size:20px;
+line-height:1.8;
+margin-bottom:30px;
+}
+
+.heroContent button{
+padding:15px 40px;
+border:none;
+background:white;
+color:#2563eb;
+font-size:18px;
+font-weight:bold;
+border-radius:40px;
+cursor:pointer;
+transition:.3s;
+}
+
+.heroContent button:hover{
+background:#ec4899;
+color:white;
+}
+
+/* Categories */
+
+.categories{
+padding:80px 8%;
+background:#f8fbff;
+}
+
+.categories h2{
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+color:#2563eb;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.cardBody{
+padding:25px;
+text-align:center;
+}
+
+.cardBody h3{
+margin-bottom:20px;
+color:#333;
+}
+
+.cardBody button{
+padding:12px 25px;
+border:none;
+border-radius:30px;
+background:linear-gradient(135deg,#2563eb,#ec4899);
+color:white;
+cursor:pointer;
+}
+
+/* Why Choose */
+
+.why{
+padding:80px 8%;
+text-align:center;
+}
+
+.why h2{
+font-size:40px;
+color:#ec4899;
+margin-bottom:50px;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:25px;
+}
+
+.features div{
+background:white;
+padding:35px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.features h3{
+font-size:40px;
+color:#2563eb;
+margin-bottom:10px;
+}
+
+/* CTA */
+
+.cta{
+padding:80px 20px;
+text-align:center;
+background:linear-gradient(135deg,#2563eb,#ec4899);
+color:white;
+}
+
+.cta h2{
+font-size:42px;
+margin-bottom:20px;
+}
+
+.cta p{
+font-size:18px;
+margin-bottom:30px;
+}
+
+.cta button{
+padding:15px 40px;
+border:none;
+border-radius:30px;
+background:white;
+color:#2563eb;
+font-weight:bold;
+cursor:pointer;
+transition:.3s;
+}
+
+.cta button:hover{
+background:#ffd4ea;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.heroContent h1{
+font-size:38px;
+}
+
+.heroContent p{
+font-size:16px;
+}
+
+.categories h2,
+.why h2,
+.cta h2{
+font-size:30px;
+}
+
+}
