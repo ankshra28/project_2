@@ -3,6 +3,7 @@ import baby3 from "../../../assets/baby3.jpeg"
 import baby1 from "../../../assets/baby1.jpeg"
 
 import baby7 from "../../../assets/baby7.jpeg";
+import baby8 from "../../../assets/baby8.jpeg";
 // import welcomeBaby from "./images/welcomeBaby.jpg";
 // import cradleCeremony from "./images/cradleCeremony.jpg";
 import baby6 from "../../../assets/baby6.jpeg"

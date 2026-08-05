@@ -11,7 +11,7 @@ import {
 
 const Birthday = () => {
 
-  // const { addToCart } = useCart();
+  const { addToCart } = useCart();
 
   return (
 

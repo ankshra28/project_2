@@ -1,11 +1,11 @@
 import Birthday1 from "../../../assets/birthday1.jpeg";
 import Birthday2 from "../../../assets/birthday2.jpeg";
-// import Birthday3 from "../../assets/birthday/birthday3.jpg";
+import Birthday3 from "../../../assets/birthday3.jpeg";
 import Birthday4 from "../../../assets/birthday4.jpeg";
 import Birthday5 from "../../../assets/birthday5.jpeg";
-// import Birthday6 from "../../assets/birthday/birthday6.jpg";
-// import Birthday7 from "../../assets/birthday/birthday7.jpg";
-// import Birthday8 from "../../assets/birthday/birthday8.jpg";
+import Birthday6 from "../../../assets/birthday6.jpeg";
+import Birthday7 from "../../../assets/birthday7.jpeg";
+import Birthday8 from "../../../assets/birthday8.jpeg";
 
 const birthdayData = [
   {
@@ -33,7 +33,7 @@ const birthdayData = [
   {
     id: 3,
     name: "Boss Baby Theme",
-    // image: Birthday3,
+    image: Birthday3,
     // price: 2999,
     // rating: 4.7,
     // reviews: 96,
@@ -66,7 +66,7 @@ const birthdayData = [
   {
     id: 6,
     name: "",
-    // image: Birthday6,
+    image: Birthday6,
     // price: 4999,
     // rating: 4.8,
     // reviews: 168,
@@ -77,7 +77,7 @@ const birthdayData = [
   {
     id: 7,
     name: "Luxury Birthday Decoration",
-    // image: Birthday7,
+    image: Birthday7,
     // price: 6999,
     // rating: 5.0,
     // reviews: 235,
@@ -88,7 +88,7 @@ const birthdayData = [
   {
     id: 8,
     name: "Kids Birthday Premium Package",
-    // image: Birthday8,
+    image: Birthday8,
     // price: 8999,
     // rating: 5.0,
     // reviews: 280,

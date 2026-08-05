@@ -4,30 +4,33 @@ import { FaTrash, FaShoppingCart } from "react-icons/fa";
 import { useCart } from "../../../context/CartContext";
 
 const Cart = () => {
-  const { cartItems, removeFromCart } = useCart();
-
-  // const total = cartItems.reduce(
-  //   (sum, item) => sum + Number(item.price),
-  //   0
-  // );
+  const {
+    cart,
+    removeFromCart,
+    totalPrice,
+    totalItems,
+  } = useCart();
 
   return (
     <div className={styles.cartPage}>
+      {/* Heading */}
       <div className={styles.heading}>
         <FaShoppingCart />
         <h1>My Cart</h1>
       </div>
 
-      {cartItems.length === 0 ? (
+      {/* Empty Cart */}
+      {cart.length === 0 ? (
         <div className={styles.emptyCart}>
           <h2>Your Cart is Empty</h2>
           <p>Add your favourite decorations to get started.</p>
         </div>
       ) : (
         <>
+          {/* Cart Items */}
           <div className={styles.cartContainer}>
-            {cartItems.map((item, index) => (
-              <div className={styles.cartCard} key={index}>
+            {cart.map((item) => (
+              <div className={styles.cartCard} key={item.id}>
                 <img src={item.image} alt={item.name} />
 
                 <div className={styles.info}>
@@ -35,16 +38,28 @@ const Cart = () => {
 
                   <p>{item.description}</p>
 
-                  <div className={styles.rating}>
-                    ⭐ {item.rating} ({item.reviews} Reviews)
-                  </div>
+                  {(item.rating || item.reviews) && (
+                    <div className={styles.rating}>
+                      ⭐ {item.rating ?? "N/A"} ({item.reviews ?? 0} Reviews)
+                    </div>
+                  )}
 
-                  <h3>₹ {item.price}</h3>
+                  <h3>₹ {Number(item.price).toLocaleString()}</h3>
+
+                  <p>
+                    <strong>Quantity:</strong> {item.quantity}
+                  </p>
+
+                  <p>
+                    <strong>Subtotal:</strong> ₹{" "}
+                    {(Number(item.price) * item.quantity).toLocaleString()}
+                  </p>
                 </div>
 
                 <button
                   className={styles.removeBtn}
-                  onClick={() => removeFromCart(index)}
+                  onClick={() => removeFromCart(item.id)}
+                  title="Remove Item"
                 >
                   <FaTrash />
                 </button>
@@ -52,17 +67,23 @@ const Cart = () => {
             ))}
           </div>
 
+          {/* Order Summary */}
           <div className={styles.summary}>
             <h2>Order Summary</h2>
 
             <div className={styles.priceRow}>
-              <span>Total Items</span>
-              <span>{cartItems.length}</span>
+              <span>Total Products</span>
+              <span>{cart.length}</span>
+            </div>
+
+            <div className={styles.priceRow}>
+              <span>Total Quantity</span>
+              <span>{totalItems}</span>
             </div>
 
             <div className={styles.priceRow}>
               <span>Total Price</span>
-              <span>₹ {total}</span>
+              <span>₹ {Number(totalPrice).toLocaleString()}</span>
             </div>
 
             <button className={styles.checkoutBtn}>
