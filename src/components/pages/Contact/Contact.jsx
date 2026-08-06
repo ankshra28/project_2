@@ -197,7 +197,7 @@ const Contact = () => {
             <div>
               <h4>Email</h4>
 
-              <p>support@eventdecor.com</p>
+              <p>support@Balloon Decoration in Varanasi & Haldi Mehndi.com</p>
             </div>
           </div>
 

@@ -1,6 +1,6 @@
 /* ==========================================================
    NAVBAR THEME
-   EventDecor
+   Balloon Decoration in Varanasi & Haldi Mehndi
 ========================================================== */
 
 *{
@@ -844,4 +844,27 @@
 
     background:#2563EB;
 
+}
+
+.history {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 42px;
+    height: 42px;
+
+    border-radius: 50%;
+
+    color: var(--text-color);
+    transition: 0.3s ease;
+}
+
+.history:hover {
+    background: rgba(0,0,0,0.06);
+    color: var(--primary-color);
+}
+
+.history svg {
+    font-size: 18px;
 }

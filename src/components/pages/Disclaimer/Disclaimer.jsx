@@ -15,7 +15,7 @@ const Disclaimer = () => {
 
         <p>
           Please read this disclaimer carefully before using our website
-          or booking any services from Eventdecor.
+          or booking any services from Balloon Decoration in Varanasi & Haldi Mehndi.
         </p>
       </section>
 
@@ -26,7 +26,7 @@ const Disclaimer = () => {
         <div className={styles.card}>
           <h2>1. General Information</h2>
           <p>
-            The information provided on EventDecor is for general
+            The information provided on Balloon Decoration in Varanasi & Haldi Mehndi is for general
             informational purposes only. While we strive to keep all
             information accurate and up to date, we make no guarantees
             regarding its completeness or accuracy.
@@ -64,7 +64,7 @@ const Disclaimer = () => {
         <div className={styles.card}>
           <h2>5. Limitation of Liability</h2>
           <p>
-            EventDecor shall not be held responsible for any direct,
+            Balloon Decoration in Varanasi & Haldi Mehndi shall not be held responsible for any direct,
             indirect, incidental, or consequential damages arising from
             the use of our website or services.
           </p>
@@ -83,7 +83,7 @@ const Disclaimer = () => {
           <h2>7. Intellectual Property</h2>
           <p>
             All logos, designs, photographs, graphics, and website
-            content are the property of EventDecor and may not be
+            content are the property of Balloon Decoration in Varanasi & Haldi Mehndi and may not be
             reproduced without written permission.
           </p>
         </div>
@@ -106,7 +106,7 @@ const Disclaimer = () => {
 
           <p>📞 +91 9876543210</p>
 
-          <p>📧 support@eventdecor.com</p>
+          <p>📧 support@Balloon Decoration in Varanasi & Haldi Mehndi.com</p>
         </div>
 
       </section>

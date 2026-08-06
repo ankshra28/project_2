@@ -1,8 +1,9 @@
 import React from "react";
 import styles from "./Birthday.module.css";
 // import birthdayData from "./birthdayData";
-import birthdayData from "./birthdayData";
+import { birthdayData } from "../../../data/products";
 import { useCart } from "../../../context/CartContext";
+import {Link} from "react-router-dom";
 
 import {
   FaShoppingCart,
@@ -92,7 +93,7 @@ const Birthday = () => {
 
       <section className={styles.features}>
 
-        <h2>Why Choose EventDecor?</h2>
+        <h2>Why Choose Balloon Decoration in Varanasi & Haldi Mehndi?</h2>
 
         <div className={styles.featureGrid}>
 
@@ -148,7 +149,9 @@ const Birthday = () => {
         </p>
 
         <button>
-          Book Now
+          <Link to="/get-in-touch">
+            Book Now
+          </Link>
         </button>
 
       </section>

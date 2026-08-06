@@ -78,10 +78,10 @@ export default function HeroSlider() {
             <p>{slide.description}</p>
 
             <div className={styles.buttons}>
-              <a href="tel:+919999999999">Call Now</a>
+              <a href="tel:+918981669666">Call Now</a>
 
               <a
-                href="https://wa.me/919999999999"
+                href="https://wa.me/918981669666"
                 target="_blank"
                 rel="noreferrer"
                 className={styles.secondary}

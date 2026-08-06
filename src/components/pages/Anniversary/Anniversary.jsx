@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Anniversary.module.css";
-import anniversaryData from "./anniversaryData";
-
+import { anniversaryData } from "../../../data/products";
 import { useCart } from "../../../context/CartContext";
 
 import {

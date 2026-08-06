@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./KidsSpecial.module.css";
-import kidsSpecialData from "./kidsSpecialData";
+import { kidsSpecialData } from "../../../data/products";
 import { useCart } from "../../../context/CartContext";
 
 import {
@@ -77,7 +77,7 @@ const KidsSpecial = () => {
       {/* Why Choose Us */}
       <section className={styles.features}>
 
-        <h2>Why Choose EventDecor?</h2>
+        <h2>Why Choose Balloon Decoration in Varanasi & Haldi Mehndi?</h2>
 
         <div className={styles.featureGrid}>
 
