@@ -12,7 +12,7 @@ const Sitemap = () => {
         <FaSitemap className={styles.heroIcon} />
         <h1>Website Sitemap</h1>
         <p>
-          Easily navigate through all the pages available on EventDecor.
+          Easily navigate through all the pages available on Balloon Decoration in Varanasi & Haldi Mehndi.
         </p>
       </section>
 

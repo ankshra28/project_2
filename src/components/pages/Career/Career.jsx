@@ -54,7 +54,7 @@ const Career = () => {
       <section className={styles.hero}>
         <h1>Join Our Team</h1>
         <p>
-          Build your career with EventDecor and create unforgettable
+          Build your career with Balloon Decoration in Varanasi & Haldi Mehndi and create unforgettable
           celebrations across India.
         </p>
       </section>

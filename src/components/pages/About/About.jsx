@@ -33,7 +33,7 @@ function About() {
             </h1>
 
             <p>
-              EventDecor is India's trusted decoration company offering
+              Balloon Decoration in Varanasi & Haldi Mehndi is India's trusted decoration company offering
               Birthday Decorations, Anniversary Setups, Baby Showers,
               Weddings, Surprise Parties, Corporate Events and much more.
             </p>
@@ -47,7 +47,7 @@ function About() {
           </div>
 
           <div className={styles.right}>
-            <img src={aboutBanner} alt="About EventDecor" />
+            <img src={aboutBanner} alt="About Balloon Decoration in Varanasi & Haldi Mehndi" />
           </div>
 
         </div>
@@ -65,10 +65,10 @@ function About() {
           
         <div className={styles.aboutText}>
 
-          <h2>About EventDecor</h2>
+          <h2>About Balloon Decoration in Varanasi & Haldi Mehndi</h2>
 
           <p>
-            At EventDecor, we transform ordinary spaces into unforgettable
+            At Balloon Decoration in Varanasi & Haldi Mehndi, we transform ordinary spaces into unforgettable
             celebrations. Our experienced decorators specialize in
             Birthday Decorations, Baby Showers, Wedding Decor,
             Anniversary Celebrations, Proposal Setups and many more.
@@ -144,7 +144,7 @@ function About() {
 
       <section className={styles.why}>
 
-        <h2>Why Choose EventDecor?</h2>
+        <h2>Why Choose Balloon Decoration in Varanasi & Haldi Mehndi?</h2>
 
         <div className={styles.whyGrid}>
 

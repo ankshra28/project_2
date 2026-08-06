@@ -34,7 +34,7 @@
 //         <div className={styles.logo}>
 //           <Link to="/">
 //             <h2>
-//               Balloon Decoration in Varanasi<span> &Haldi mehndi</span>
+//               Balloon Decoration in Varanasi & Haldi Mehndi<span> &Haldi mehndi</span>
 //             </h2>
 //           </Link>
 //         </div>
@@ -63,7 +63,7 @@
 //         <div className={styles.icons}>
 
 //           {/* <Link to ="/home">
-          
+
 //           <FaBuilding/>
 //           </Link> */}
 
@@ -80,7 +80,7 @@
 //           <Link to="/cart">
 //             <FaShoppingCart />
 //           </Link>
-           
+
 //             <Link to="/about">
 //             <FaInfoCircle />
 //           </Link>
@@ -89,20 +89,20 @@
 //             <FaUserCircle />
 //           </Link> */}
 
-          
+
 
 //            <Link to="/https://share.google/usJ0hDyFSUqcVSAVq">
 //             <  FaGoogle/>
 //           </Link>
 //              {/* <a
 //             href="https://maps.app.goo.gl/xxxxxxxx"
-      
+
 //             target="_blank"
 //             rel="noopener noreferrer"
 //             className={styles.locationBtn}
 //           >
 //            <FaGoogle/>
-          
+
 //           </a> */}
 
 //         </div>
@@ -133,6 +133,7 @@ import {
   FaInfoCircle,
   FaGoogle,
   FaMapMarkerAlt,
+  FaHistory,
 } from "react-icons/fa";
 
 import { useCart } from "../../context/CartContext";
@@ -163,13 +164,13 @@ export default function Navbar() {
 
           <Link to="/" className={styles.logo}>
             <h2>
-              🎈 EventDecor
-              <span> Varanasi</span>
+              🎈 Balloon Decoration in Varanasi & Haldi Mehndi
+              {/* <span> Varanasi</span> */}
             </h2>
 
-            <small>
-              Balloon Decoration & Haldi Mehndi
-            </small>
+            {/* <small>
+              Balloon Decoration in Varanasi & Haldi Mehndi
+            </small> */}
           </Link>
 
           {/* Search */}
@@ -195,7 +196,7 @@ export default function Navbar() {
             </NavLink>
 
             <a
-              href="https://maps.app.goo.gl/"
+              href="https://maps.app.goo.gl/S11QgVRE7nTxDMQf9"
               target="_blank"
               rel="noopener noreferrer"
               title="Location"
@@ -211,6 +212,14 @@ export default function Navbar() {
             >
               <FaGoogle />
             </a>
+
+            <NavLink
+              to="/history"
+              title="Booking History"
+              className={styles.history}
+            >
+              <FaHistory />
+            </NavLink>
 
             <NavLink
               to="/cart"
@@ -303,6 +312,15 @@ export default function Navbar() {
           Contact
         </NavLink>
 
+        <NavLink
+          to="/history"
+          onClick={() => setMenuOpen(false)}
+          className={styles.mobileLink}
+        >
+          <FaHistory />
+
+          <span>Booking History</span>
+        </NavLink>
         <NavLink
           to="/cart"
           onClick={() => setMenuOpen(false)}

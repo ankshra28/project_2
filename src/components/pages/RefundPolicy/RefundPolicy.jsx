@@ -63,9 +63,9 @@ const RefundPolicy = () => {
         </div>
 
         <div className={styles.card}>
-          <h2>5. Cancellation by Balloon Decoration in Varanasi and Haldi mahendi</h2>
+          <h2>5. Cancellation by Balloon Decoration in Varanasi & Haldi Mehndi and Haldi mahendi</h2>
           <p>
-            If Balloon Decoration in Varanasi and Haldi mahendi is unable to provide the booked service due to
+            If Balloon Decoration in Varanasi & Haldi Mehndi and Haldi mahendi is unable to provide the booked service due to
             unforeseen circumstances, customers will receive an
             appropriate refund or the option to reschedule.
           </p>
@@ -107,7 +107,7 @@ const RefundPolicy = () => {
 
           <p>📞 +91 abc</p>
 
-          <p>📧 support@eventdecor.com</p>
+          <p>📧 support@Balloon Decoration in Varanasi & Haldi Mehndi.com</p>
 
         </div>
 

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./BabyShower.module.css";
-import babyShowerData from "./babyShowerData";
+import { babyShowerData } from "../../../data/products";
 import { useCart } from "../../../context/CartContext";
 import { FaShoppingCart, FaStar } from "react-icons/fa";
 

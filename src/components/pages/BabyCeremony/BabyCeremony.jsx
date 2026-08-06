@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./BabyCeremony.module.css";
-import babyCeremonyData from "./babyCeremonyData";
+import { babyCeremonyData } from "../../../data/products";
 import { useCart } from "../../../context/CartContext";
 
 import {
@@ -100,7 +100,7 @@ const BabyCeremony = () => {
       {/* Why Choose Us */}
 
       <section className={styles.features}>
-        <h2>Why Choose EventDecor?</h2>
+        <h2>Why Choose Balloon Decoration in Varanasi & Haldi Mehndi?</h2>
 
         <div className={styles.featureGrid}>
           <div className={styles.feature}>
@@ -179,7 +179,7 @@ const BabyCeremony = () => {
         <h2>Create Beautiful Memories</h2>
 
         <p>
-          Let EventDecor transform your special occasion into an unforgettable
+          Let Balloon Decoration in Varanasi & Haldi Mehndi transform your special occasion into an unforgettable
           celebration with premium decorations and creative themes.
         </p>
 

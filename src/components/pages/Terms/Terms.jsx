@@ -11,7 +11,7 @@ const Terms = () => {
         <h1>Terms & Conditions</h1>
         <p>
           Please read these Terms & Conditions carefully before using our
-          EventDecor services.
+          Balloon Decoration in Varanasi & Haldi Mehndi services.
         </p>
       </section>
 
@@ -21,7 +21,7 @@ const Terms = () => {
         <div className={styles.card}>
           <h2>1. Acceptance of Terms</h2>
           <p>
-            By accessing or booking any decoration service through EventDecor,
+            By accessing or booking any decoration service through Balloon Decoration in Varanasi & Haldi Mehndi,
             you agree to comply with these Terms & Conditions.
           </p>
         </div>
@@ -71,14 +71,14 @@ const Terms = () => {
           <h2>7. Intellectual Property</h2>
           <p>
             All website content, images, logos, and designs belong to
-            EventDecor and may not be copied without permission.
+            Balloon Decoration in Varanasi & Haldi Mehndi and may not be copied without permission.
           </p>
         </div>
 
         <div className={styles.card}>
           <h2>8. Limitation of Liability</h2>
           <p>
-            EventDecor is not responsible for delays or cancellations caused
+            Balloon Decoration in Varanasi & Haldi Mehndi is not responsible for delays or cancellations caused
             by natural disasters, government restrictions, venue issues, or
             circumstances beyond our control.
           </p>
@@ -104,7 +104,7 @@ const Terms = () => {
           </p>
 
           <p>
-            📧 support@eventdecor.com
+            📧 support@Balloon Decoration in Varanasi & Haldi Mehndi.com
           </p>
         </div>
 

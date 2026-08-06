@@ -15,7 +15,7 @@ const Privacy = () => {
 
         <p>
           Your privacy is important to us. This Privacy Policy explains
-          how EventDecor collects, uses, and protects your personal
+          how Balloon Decoration in Varanasi & Haldi Mehndi collects, uses, and protects your personal
           information.
         </p>
       </section>

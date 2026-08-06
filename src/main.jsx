@@ -7,19 +7,27 @@ import { CartProvider } from "./context/CartContext";
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+import { PaymentProvider } from "./context/PaymentContext";
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <CartProvider>
-    <App />
 
-    <ToastContainer
-      position="top-right"
-      autoClose={2000}
-      newestOnTop
-      closeOnClick
-      pauseOnHover
-      draggable
-      theme="colored"
-    />
+  <CartProvider>
+
+    <PaymentProvider>
+
+      <App />
+
+      <ToastContainer
+        position="top-right"
+        autoClose={2000}
+        newestOnTop
+        closeOnClick
+        pauseOnHover
+        draggable
+        theme="colored"
+      />
+
+    </PaymentProvider>
+
   </CartProvider>
+
 );

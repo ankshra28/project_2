@@ -10,6 +10,13 @@ export const CartProvider = ({ children }) => {
     return savedCart ? JSON.parse(savedCart) : [];
   });
 
+  const clearCart = () => {
+    setCart([]);
+
+    toast.success("Cart cleared.", {
+      autoClose: 1500,
+    });
+  };
   // Save cart whenever it changes
   useEffect(() => {
     localStorage.setItem("eventDecorCart", JSON.stringify(cart));
@@ -31,9 +38,9 @@ export const CartProvider = ({ children }) => {
         return prev.map((item) =>
           item.id === product.id
             ? {
-                ...item,
-                quantity: item.quantity + 1,
-              }
+              ...item,
+              quantity: item.quantity + 1,
+            }
             : item
         );
       }
@@ -78,9 +85,9 @@ export const CartProvider = ({ children }) => {
       prev.map((item) =>
         item.id === id
           ? {
-              ...item,
-              quantity: item.quantity + 1,
-            }
+            ...item,
+            quantity: item.quantity + 1,
+          }
           : item
       )
     );
@@ -103,9 +110,9 @@ export const CartProvider = ({ children }) => {
         .map((item) =>
           item.id === id
             ? {
-                ...item,
-                quantity: item.quantity - 1,
-              }
+              ...item,
+              quantity: item.quantity - 1,
+            }
             : item
         )
         .filter((item) => item.quantity > 0)
@@ -139,6 +146,7 @@ export const CartProvider = ({ children }) => {
         removeFromCart,
         increaseQuantity,
         decreaseQuantity,
+        clearCart,
         totalItems,
         totalPrice,
       }}

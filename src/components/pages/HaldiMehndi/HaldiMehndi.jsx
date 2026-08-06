@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./HaldiMehndi.module.css";
-import haldiMehndiData from "./haldiMehndiData";
+import { haldiMehndiData } from "../../../data/products";
 import { useCart } from "../../../context/CartContext";
 
 import {
@@ -90,7 +90,7 @@ const HaldiMehndi = () => {
 
       <section className={styles.features}>
 
-        <h2>Why Choose EventDecor?</h2>
+        <h2>Why Choose Balloon Decoration in Varanasi & Haldi Mehndi?</h2>
 
         <div className={styles.featureGrid}>
 

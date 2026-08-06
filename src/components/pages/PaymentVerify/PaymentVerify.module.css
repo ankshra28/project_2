@@ -1,0 +1,198 @@
+.wrapper {
+  min-height: 100vh;
+  background: #f8fafc;
+  padding: 120px 20px 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 600px;
+
+  background: #ffffff;
+  border-radius: 20px;
+
+  padding: 40px 35px;
+
+  box-shadow: 0 15px 40px rgba(15, 23, 42, 0.08);
+
+  animation: fadeUp .35s ease;
+}
+
+.icon {
+  font-size: 3.8rem;
+  color: #2563eb;
+
+  display: block;
+
+  margin: 0 auto 20px;
+}
+
+.card h1 {
+  text-align: center;
+  color: #111827;
+  margin-bottom: 30px;
+}
+
+.card h2 {
+  text-align: center;
+  color: #ef4444;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+  margin-bottom: 30px;
+
+  padding: 22px;
+
+  border-radius: 14px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e5e7eb;
+}
+
+.info p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 20px;
+
+  color: #374151;
+
+  word-break: break-word;
+}
+
+.info strong {
+  color: #111827;
+  min-width: 110px;
+}
+
+.card input {
+  width: 100%;
+
+  padding: 15px 18px;
+
+  border: 1px solid #d1d5db;
+
+  border-radius: 12px;
+
+  outline: none;
+
+  font-size: .95rem;
+
+  margin-bottom: 22px;
+
+  transition: .3s;
+}
+
+.card input:focus {
+  border-color: #2563eb;
+
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, .12);
+}
+
+.card button {
+  width: 100%;
+
+  border: none;
+
+  outline: none;
+
+  cursor: pointer;
+
+  padding: 16px;
+
+  border-radius: 12px;
+
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+
+  color: #fff;
+
+  font-size: 1rem;
+
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  transition: .3s;
+}
+
+.card button:hover:not(:disabled) {
+  transform: translateY(-2px);
+
+  box-shadow: 0 12px 25px rgba(37, 99, 235, .25);
+}
+
+.card button:disabled {
+  cursor: not-allowed;
+  opacity: .7;
+}
+
+@keyframes fadeUp {
+
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+@media (max-width:768px) {
+
+  .wrapper {
+    padding: 90px 15px 40px;
+  }
+
+  .card {
+    padding: 28px 20px;
+  }
+
+  .icon {
+    font-size: 3rem;
+  }
+
+  .card h1 {
+    font-size: 1.6rem;
+  }
+
+  .info p {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .info strong {
+    min-width: auto;
+  }
+
+}
+
+@media (max-width:480px) {
+
+  .card {
+    border-radius: 16px;
+    padding: 22px 18px;
+  }
+
+  .card button {
+    padding: 15px;
+    font-size: .95rem;
+  }
+
+}

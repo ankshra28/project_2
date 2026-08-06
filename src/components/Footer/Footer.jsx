@@ -11,6 +11,8 @@ import {
   FaYoutube,
   FaLinkedinIn,
   FaTwitter,
+  FaPhone,
+  FaGoogle,
 } from "react-icons/fa";
 
 function Footer() {
@@ -21,7 +23,7 @@ function Footer() {
         {/* Company Info */}
         <div className={styles.footerColumn}>
           <h2 className={styles.logo}>
-            Balloon Decoration in Varanasi<span> and Haldi mehndi</span>
+            Balloon Decoration in Varanasi & Haldi Mehndi<span> and Haldi mehndi</span>
           </h2>
 
           <p className={styles.description}>
@@ -33,7 +35,7 @@ function Footer() {
           <div className={styles.contact}>
             <p>
               <FaPhoneAlt className={styles.icon} />
-              +91 abc
+              +91 8981669666
             </p>
 
             <p>
@@ -52,7 +54,7 @@ function Footer() {
             </a>
           </div>
 
-       
+
         </div>
 
         {/* Categories */}
@@ -84,7 +86,7 @@ function Footer() {
           <Link to="/kids">Kids birthday decorations</Link>
 
           <Link to="/surprise">Surprise balloon decoration</Link>
-              
+
 
           {/* <Link to="/proposal"></Link> */}
 
@@ -126,54 +128,68 @@ function Footer() {
           </div> */}
         </div>
 
-         <div className={styles.footerColumn}>
+        <div className={styles.footerColumn}>
           <h3>Serviced City</h3>
 
           <Link to="#">Varanasi</Link>
 
-         <a
-  href="https://maps.app.goo.gl/xxxxxxxx"
-  target="_blank"
-  rel="noopener noreferrer"
-  className={styles.locationBtn}
->
-  📍 Find Us on Google Maps
+          <a
+            href="https://maps.app.goo.gl/S11QgVRE7nTxDMQf9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.locationBtn}
+          >
+            📍 Find Us on Google Maps
 
-</a>
-            
+          </a>
 
-               {/* Social Icons */}
+
+          {/* Social Icons */}
           <div className={styles.socialIcons}>
-            <a href="#">
+            {/* <a href="#">
               <FaInstagram />
-            </a>
+            </a> */}
 
-            <a href="#">
+            <a href="https://www.facebook.com/share/1FTKgp3pGx/?mibextid=wwXIfr">
               <FaFacebookF />
             </a>
 
-            <a href="#">
+            {/* <a href="#">
               <FaYoutube />
-            </a>
+            </a> */}
 
-            <a href="#">
+            {/* <a href="#">
               <FaTwitter />
-            </a>
+            </a> */}
 
-            <a href="#">
+            {/* <a href="#">
               <FaLinkedinIn />
+            </a> */}
+
+            <a href="https://wa.me/918981669666">
+              <FaWhatsapp/>
+            </a>
+            
+            <a href="https://maps.app.goo.gl/S11QgVRE7nTxDMQf9">
+              <FaGoogle/>
+            </a>
+            <a href="tel+:918981669666">
+              <FaPhone/>
+            </a>
+            <a href="mailto:@gmail.com">
+              <FaEnvelope/>
             </a>
           </div>
-         
+
 
         </div>
 
       </div>
 
 
-      
-        {/* Cities */}
-       
+
+      {/* Cities */}
+
 
       {/* Bottom Footer */}
 
