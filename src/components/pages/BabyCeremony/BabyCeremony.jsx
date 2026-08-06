@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./BabyCeremony.module.css";
 import { babyCeremonyData } from "../../../data/products";
-import { useCart } from "../../../context/CartContext";
+import { useCart } from "../../../context/cartContext";
 
 import {
   FaShoppingCart,

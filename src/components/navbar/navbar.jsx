@@ -136,7 +136,7 @@ import {
   FaHistory,
 } from "react-icons/fa";
 
-import { useCart } from "../../context/CartContext";
+import { useCart } from "../../context/cartContext";
 import styles from "./Navbar.module.css";
 
 const menuItems = [

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./KidsSpecial.module.css";
 import { kidsSpecialData } from "../../../data/products";
-import { useCart } from "../../../context/CartContext";
+import { useCart } from "../../../context/cartContext";
 
 import {
   FaShoppingCart,

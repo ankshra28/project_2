@@ -15,7 +15,7 @@ import {
 
 import styles from "./Payment.module.css";
 
-import { useCart } from "../../../context/CartContext";
+import { useCart } from "../../../context/cartContext";
 import { usePayment } from "../../../context/PaymentContext";
 
 import {

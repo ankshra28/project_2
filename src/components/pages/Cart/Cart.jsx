@@ -113,7 +113,7 @@ import {
 
 import { toast } from "react-toastify";
 
-import { useCart } from "../../../context/CartContext";
+import { useCart } from "../../../context/cartContext";
 import { usePayment } from "../../../context/PaymentContext";
 
 const Cart = () => {

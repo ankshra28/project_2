@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Birthday.module.css";
 // import birthdayData from "./birthdayData";
 import { birthdayData } from "../../../data/products";
-import { useCart } from "../../../context/CartContext";
+import { useCart } from "../../../context/cartContext";
 import {Link} from "react-router-dom";
 
 import {
